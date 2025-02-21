@@ -32,10 +32,10 @@
         .container {
             width: 90%;
             max-width: 700px;
-            background: rgba(0, 102, 204, 0.9);
+            background: rgba(0, 102, 204, 0.9); /* Azul */
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.5);
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.5); /* Azul */
             text-align: center;
             animation: fadeIn 1s ease-in-out;
             margin-bottom: 20px; /* Adiciona espaço entre o container e o botão de compartilhamento */
@@ -89,15 +89,15 @@
         }
         
         @keyframes pulse {
-            0% { transform: scale(1); box-shadow: 0 0 10px rgba(0, 102, 204, 0.6); }
-            50% { transform: scale(1.08); box-shadow: 0 0 25px rgba(0, 102, 204, 0.9); }
-            100% { transform: scale(1); box-shadow: 0 0 10px rgba(0, 102, 204, 0.6); }
+            0% { transform: scale(1); box-shadow: 0 0 10px rgba(0, 102, 204, 0.6); } /* Azul */
+            50% { transform: scale(1.08); box-shadow: 0 0 25px rgba(0, 102, 204, 0.9); } /* Azul */
+            100% { transform: scale(1); box-shadow: 0 0 10px rgba(0, 102, 204, 0.6); } /* Azul */
         }
 
         .btn-whatsapp {
             display: inline-flex;
             align-items: center;
-            background: #25D366;
+            background: #25D366; /* Verde do WhatsApp */
             color: white;
             padding: 15px 28px;
             font-size: 20px;
@@ -105,11 +105,10 @@
             border-radius: 10px;
             font-weight: bold;
             transition: background 0.3s;
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.5);
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.5); /* Verde do WhatsApp */
             position: fixed;
             bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            right: 20px;
             z-index: 1000;
             animation: pulse 1.5s infinite;
         }
@@ -120,7 +119,7 @@
         }
         
         .btn-whatsapp:hover {
-            background: #1a8f4a;
+            background: #1a8f4a; /* Verde mais escuro */
         }
         
         .footer {
@@ -137,7 +136,7 @@
             margin-bottom: 80px; /* Adiciona espaço extra na parte inferior */
         }
         .share-btn {
-            background: #25D366;
+            background: #25D366; /* Verde do WhatsApp */
             color: white;
             border: none;
             padding: 10px 20px;
@@ -147,7 +146,7 @@
             transition: 0.3s;
         }
         .share-btn:hover {
-            background: #1a8f4a;
+            background: #1a8f4a; /* Verde mais escuro */
         }
         .share-links {
             margin-top: 10px;
